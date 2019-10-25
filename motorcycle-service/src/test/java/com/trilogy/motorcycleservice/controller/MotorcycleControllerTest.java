@@ -21,6 +21,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -65,12 +66,16 @@ public class MotorcycleControllerTest {
     }
 
     @Test
-    public void readMotorcycle() {
-        String outputJson = mapper.writeValueAsString(bvm);
+    public void readMotorcycle() throws Exception{
+        Motorcycle motoOut = new Motorcycle(
+                1, BigDecimal.valueOf(10.99), "1","honda","vroom","1999", "black"
+        );
 
-        when(bookService.findById(2)).thenReturn(bvm);
+        String outputJson = mapper.writeValueAsString(motoOut);
 
-        this.mockMvc.perform(get("/books/2"))
+        when(motorcycleDao.getOne(Long.valueOf(1))).thenReturn(motoOut);
+
+        this.mockMvc.perform(get("/motorcycles/1"))
                 .andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(content().json(outputJson));
@@ -78,6 +83,9 @@ public class MotorcycleControllerTest {
 
     @Test
     public void updateMotorcycle() {
+
+
+
     }
 
     @Test

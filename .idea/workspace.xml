@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="938492ab-8f2d-43e2-a450-64f6c8c31414" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/src/main/java/com/company/MotoInventoryedge/MotoInventoryEdgeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/src/main/java/com/company/MotoInventoryedge/controller/MotorcycleEdgeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/src/main/java/com/company/MotoInventoryedge/model/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/src/main/java/com/company/MotoInventoryedge/model/MotorcyclePurchaseViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/src/main/java/com/company/MotoInventoryedge/service/MotoEdgeServiceLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/src/main/java/com/company/MotoInventoryedge/util/feign/MotoInventoryFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/src/test/java/com/company/MotoInventoryedge/MotoInventoryEdgeApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MotoInventory-edge/src/test/java/com/company/MotoInventoryedge/service/MotoEdgeServiceLayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/motorcycle-service/src/test/java/com/trilogy/motorcycleservice/controller/MotorcycleControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/motorcycle-service/src/test/java/com/trilogy/motorcycleservice/controller/MotorcycleControllerTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ShViojC0PZvlhUkUzZvYEmtB3P" />
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="938492ab-8f2d-43e2-a450-64f6c8c31414" name="Default Changelist" comment="" />
+      <created>1572015943799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572015943799</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
