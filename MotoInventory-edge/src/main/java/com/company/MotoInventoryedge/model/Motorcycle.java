@@ -6,7 +6,7 @@ import java.util.Objects;
 public class Motorcycle {
 
     private int motorcycleId;
-    private BigDecimal prive;
+    private BigDecimal price;
     private String vin;
     private String make;
     private String model;
@@ -21,12 +21,12 @@ public class Motorcycle {
         this.motorcycleId = motorcycleId;
     }
 
-    public BigDecimal getPrive() {
-        return prive;
+    public BigDecimal getPrice() {
+        return price;
     }
 
-    public void setPrive(BigDecimal prive) {
-        this.prive = prive;
+    public void setPrice(BigDecimal price) {
+        this.price = price;
     }
 
     public String getVin() {
@@ -75,7 +75,7 @@ public class Motorcycle {
         if (o == null || getClass() != o.getClass()) return false;
         Motorcycle that = (Motorcycle) o;
         return motorcycleId == that.motorcycleId &&
-                Objects.equals(prive, that.prive) &&
+                Objects.equals(price, that.price) &&
                 Objects.equals(vin, that.vin) &&
                 Objects.equals(make, that.make) &&
                 Objects.equals(model, that.model) &&
@@ -85,8 +85,6 @@ public class Motorcycle {
 
     @Override
     public int hashCode() {
-        return Objects.hash(motorcycleId, prive, vin, make, model, year, color);
+        return Objects.hash(motorcycleId, price, vin, make, model, year, color);
     }
-
-
 }
